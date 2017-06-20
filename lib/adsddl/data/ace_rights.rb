@@ -218,5 +218,6 @@ module Adsddl
 
     # The simple read is a collection of 3 other permissions
     READ = parse_value(0x20014)
+    PROTECT_FROM_DELETION = parse_value(0x10040) # DELETE & DELETE_TREE
   end
 end

@@ -176,5 +176,6 @@ module Adsddl
     end
 
     AUTHENTICATED_USERS = SID.new([0, 0, 0, 0, 0, 5], [11])
+    EVERYONE = SID.new([0, 0, 0, 0, 0, 1], [0])
   end
 end
